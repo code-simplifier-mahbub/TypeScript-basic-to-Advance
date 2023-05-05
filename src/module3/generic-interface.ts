@@ -38,12 +38,12 @@
 // }
 
 //**********multiple generic type in generic interface
-interface CrushInformation<H, T, S>{
-    name: string;
-    husband: H ;
-    wife: T ;
-    salary: S ;
-}
+// interface CrushInformation<H, T, S>{
+//     name: string;
+//     husband: H ;
+//     wife: T ;
+//     salary: S ;
+// }
 
 //with object
 // const crush5: CrushInformation<object, object, number>={
@@ -73,24 +73,24 @@ interface CrushInformation<H, T, S>{
 //     salary: 2000000
 // }
 
-//with simplified destructuring object
-interface destructCommon  {
-    age:number;
-    care: string
-}
+// //with simplified destructuring object
+// interface destructCommon  {
+//     age:number;
+//     care: string
+// }
 
-const crush5: CrushInformation<destructCommon, destructCommon, number>={
-    name: 'mahbub',
-    husband: {
-        age: 22,
-        care: 'yes'
-    },
-    wife: {
-        age: 18,
-        care: 'yes'
-    },
-    salary: 2000000
-}
+// const crush5: CrushInformation<destructCommon, destructCommon, number>={
+//     name: 'mahbub',
+//     husband: {
+//         age: 22,
+//         care: 'yes'
+//     },
+//     wife: {
+//         age: 18,
+//         care: 'yes'
+//     },
+//     salary: 2000000
+// }
 
 
 
