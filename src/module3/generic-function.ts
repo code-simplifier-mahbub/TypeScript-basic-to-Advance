@@ -37,21 +37,21 @@
 // const result2 = createArray1<string, Array<string>>('mahbub', ['hati'])
 
 
-// use generic in a function 
+// // use generic in a function 
 
-const addMeInMyCrushMind = <T>(myinfo:T) => {
-    const crush6:string = 'sokhina';
-    const newCrush = {...myinfo, crush6}
-    return newCrush;
+// const addMeInMyCrushMind = <T>(myinfo:T) => {
+//     const crush6:string = 'sokhina';
+//     const newCrush = {...myinfo, crush6}
+//     return newCrush;
 
-};
+// };
 
-const myinfo = { 
-    name: 'mahbub', 
-    age: 22,
-    salary: 1000000
-}
+// const myinfo = { 
+//     name: 'mahbub', 
+//     age: 22,
+//     salary: 1000000
+// }
 
-const result6 = addMeInMyCrushMind(myinfo);
+// const result6 = addMeInMyCrushMind(myinfo);
  
     
