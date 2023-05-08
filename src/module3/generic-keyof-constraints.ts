@@ -19,13 +19,13 @@
 // console.log(result8);// now we are going to using this method
 
 
-//generic keyof constraints
-function getProperty<X,Y extends keyof X>(obj: X, key: Y){  // here Y = "name" | "age"
-    obj[key]
-}
+// //generic keyof constraints
+// function getProperty<X,Y extends keyof X>(obj: X, key: Y){  // here Y = "name" | "age"
+//     obj[key]
+// }
 
-const result9 = getProperty({name: 'hasan', age: 22}, "age")
-console.log(result9);
+// const result9 = getProperty({name: 'hasan', age: 22}, "age")
+// console.log(result9);
 
 
 
